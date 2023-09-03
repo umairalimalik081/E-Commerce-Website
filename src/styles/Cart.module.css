@@ -1,0 +1,94 @@
+.Cart {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.CartRow {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:20px;
+  flex-direction: row;
+  max-width: 94%;
+  padding:20px 0;
+  min-height: 100px;
+}
+
+.CartRow h1 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.CartRow > div {
+  flex-basis: 500px;
+  display: flex;
+  align-items: center;
+  gap:10px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Cart .deleteIcon {
+  padding:10px;
+  font-size:15px;
+  color: var(--white);
+  
+  background: var(--lightblack)
+}
+
+
+
+
+
+.ActionButtons {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+flex-wrap: wrap;
+min-height:50px;
+  flex-direction: row!important;
+  justify-content: center;
+}
+
+.ActionButtons h1 {
+  margin: 0 10px;
+}
+
+
+
+@media (max-width:600px) {
+  .ActionButtons {
+    width:100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .CartRow {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 0;
+    flex-direction: column;
+  }
+
+  .CleanCartBtn {
+    margin: 40px 0;
+  }
+
+  .CheckoutCartBtn {
+    margin: 20px 0;
+  }
+
+
+}

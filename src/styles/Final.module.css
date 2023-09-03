@@ -1,0 +1,16 @@
+.Final {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Final h1 {
+    padding: 20px 0;
+}
+
+.Final h4 {
+    padding: 20px 0;
+}
